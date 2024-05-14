@@ -1,0 +1,28 @@
+[package]
+name = "stacked_bar_chart"
+version = "0.0.0"
+edition = "2021"
+authors = ["John Lyon-Smith <john@lyon-smith.org>"]
+description = "Generate a stacked bar chart"
+repository = "https://github.com/jlyonsmith/stacked_bar_chart"
+readme = "README.md"
+keywords = []
+categories = []
+license = "Unlicense"
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive", "env"] }
+easy-error = "1.0.0"
+lazy_static = "1.4.0"
+yansi = "0.5.1"
+
+[dev-dependencies]
+criterion = "^0.3"
+
+[[bench]]
+name = "benchmarks"
+harness = false
+
+[[bin]]
+name = "stacked-bar-chart"
+path = "src/bin/stacked_bar_chart.rs"
