@@ -454,17 +454,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dbb5fb1acd8a1a18b3dd5be62d25485eb770e05afb408a9627d14d451bae12da"
 
 [[package]]
-name = "rust_cli_quickstart"
-version = "0.0.0"
-dependencies = [
- "clap 4.4.6",
- "criterion",
- "easy-error",
- "lazy_static",
- "yansi",
-]
-
-[[package]]
 name = "ryu"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -527,10 +516,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "stacked_bar_chart"
+version = "0.0.0"
+dependencies = [
+ "clap 4.4.6",
+ "criterion",
+ "easy-error",
+ "lazy_static",
+ "svg",
+ "yansi",
+]
+
+[[package]]
 name = "strsim"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
+
+[[package]]
+name = "svg"
+version = "0.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "700efb40f3f559c23c18b446e8ed62b08b56b2bb3197b36d57e0470b4102779e"
 
 [[package]]
 name = "syn"
