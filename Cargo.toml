@@ -1,6 +1,6 @@
 [package]
 name = "stacked_bar_chart"
-version = "0.0.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["John Lyon-Smith <john@lyon-smith.org>"]
 description = "Generate a stacked bar chart"
