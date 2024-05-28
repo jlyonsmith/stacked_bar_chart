@@ -1,0 +1,90 @@
+<svg height="490" style="background-color: white;" viewBox="0 0 230 490" width="230" xmlns="http://www.w3.org/2000/svg">
+<style>
+.labels{fill:rgb(0,0,0);font-size:10;font-family:Arial}
+.title{font-family:Arial;font-size:12;text-anchor:middle;}
+.legend{font-family:Arial;font-size:12pt;text-anchor:left;}
+.axis{fill:none;stroke:rgb(0,0,0);stroke-width:1;}
+.y-labels{text-anchor:end;}
+.category-0{fill:#404080;stroke-width:0}
+.category-1{fill:#528040;stroke-width:0}
+.category-2{fill:#804065;stroke-width:0}
+.category-3{fill:#407780;stroke-width:0}
+.category-4{fill:#807540;stroke-width:0}
+</style>
+<g>
+<g>
+<path class="category-0" d="M47.5,340 l15,0 l0,-200 l-15,0 z"/>
+<path class="category-1" d="M47.5,140 l15,0 l0,-0 l-15,0 z"/>
+<path class="category-2" d="M47.5,140 l15,0 l0,-0 l-15,0 z"/>
+</g>
+<g>
+<path class="category-0" d="M77.5,340 l15,0 l0,-160 l-15,0 z"/>
+<path class="category-1" d="M77.5,180 l15,0 l0,-20 l-15,0 z"/>
+<path class="category-2" d="M77.5,160 l15,0 l0,-40 l-15,0 z"/>
+</g>
+<g>
+<path class="category-0" d="M107.5,340 l15,0 l0,-140 l-15,0 z"/>
+<path class="category-1" d="M107.5,200 l15,0 l0,-60 l-15,0 z"/>
+<path class="category-2" d="M107.5,140 l15,0 l0,-80 l-15,0 z"/>
+</g>
+<g>
+<path class="category-0" d="M137.5,340 l15,0 l0,-80 l-15,0 z"/>
+<path class="category-1" d="M137.5,260 l15,0 l0,-80 l-15,0 z"/>
+<path class="category-2" d="M137.5,180 l15,0 l0,-120 l-15,0 z"/>
+</g>
+<g>
+<path class="category-0" d="M167.5,340 l15,0 l0,-20 l-15,0 z"/>
+<path class="category-1" d="M167.5,320 l15,0 l0,-60 l-15,0 z"/>
+<path class="category-2" d="M167.5,260 l15,0 l0,-200 l-15,0 z"/>
+</g>
+</g>
+<polyline class="axis" points="40 40 40 340 190 340"/>
+<g class="labels">
+<text transform="translate(55,355) rotate(45)">
+Jan
+</text>
+<text transform="translate(85,355) rotate(45)">
+Feb
+</text>
+<text transform="translate(115,355) rotate(45)">
+Mar
+</text>
+<text transform="translate(145,355) rotate(45)">
+Apr
+</text>
+<text transform="translate(175,355) rotate(45)">
+May
+</text>
+</g>
+<g class="labels y-labels">
+<text transform="translate(30,345)">
+0
+</text>
+<text transform="translate(30,245)">
+5
+</text>
+<text transform="translate(30,145)">
+10
+</text>
+<text transform="translate(30,45)">
+15
+</text>
+</g>
+<text class="title" x="115" y="20">
+Jobs
+</text>
+<g>
+<rect class="category-0" height="20" rx="3" ry="3" width="20" x="40" y="390"/>
+<text class="legend" transform="translate(40,420) rotate(45)">
+Ready
+</text>
+<rect class="category-1" height="20" rx="3" ry="3" width="20" x="76" y="390"/>
+<text class="legend" transform="translate(76,420) rotate(45)">
+Active
+</text>
+<rect class="category-2" height="20" rx="3" ry="3" width="20" x="112" y="390"/>
+<text class="legend" transform="translate(112,420) rotate(45)">
+Complete
+</text>
+</g>
+</svg>

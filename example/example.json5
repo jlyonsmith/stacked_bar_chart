@@ -1,0 +1,27 @@
+{
+  title: "Jobs",
+  categories: ["Ready", "Active", "Complete"],
+  units: "count",
+  items: [
+    {
+      key: "Jan",
+      values: [10, 0, 0],
+    },
+    {
+      key: "Feb",
+      values: [8, 1, 2],
+    },
+    {
+      key: "Mar",
+      values: [7, 3, 4],
+    },
+    {
+      key: "Apr",
+      values: [4, 4, 6],
+    },
+    {
+      key: "May",
+      values: [1, 3, 10],
+    },
+  ],
+}
